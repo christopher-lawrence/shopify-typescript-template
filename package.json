@@ -1,0 +1,25 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "main": "web/index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "@shopify/app": "3.45.0",
+    "@shopify/cli": "3.45.0",
+    "typescript": "^5.0.4"
+  },
+  "author": "chris",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/serve-static": "^1.15.1",
+    "ts-node": "^10.9.1"
+  }
+}
